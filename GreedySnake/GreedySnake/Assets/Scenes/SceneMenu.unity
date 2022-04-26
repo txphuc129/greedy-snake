@@ -920,6 +920,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1968619925}
     - target: {fileID: 11479822, guid: 0991e7fb82ee7904b993791c008387ba, type: 3}
+      propertyPath: speed
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 11479822, guid: 0991e7fb82ee7904b993791c008387ba, type: 3}
       propertyPath: isRandomMoving
       value: 1
       objectReference: {fileID: 0}

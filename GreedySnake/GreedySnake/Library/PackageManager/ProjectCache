@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637865559410000000
+      ticks: 637866111050000000
     m_Hash: 3521293456
   m_LockFileStatus:
     m_FilePath: /Users/txphuc/Documents/UTD/Spring22/Graphics/greedy-snake/GreedySnake/GreedySnake/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637865559930000000
+      ticks: 637866111050000000
     m_Hash: 2797659484
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}

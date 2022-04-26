@@ -13,7 +13,7 @@ public class PlayerMovement : MonoBehaviour {
 	Quaternion newRotation;
 
 	void Awake(){
-		speed=10f;
+		speed=7f;
 		if(isRandomMoving){
 			InvokeRepeating("RandomMoving",1f,1.5f);
 		}
@@ -115,7 +115,7 @@ public class PlayerMovement : MonoBehaviour {
 		Invoke("Replay",1f);
 	}
 	public void AddSpeed(){
-		speed+=0.1f;
+		speed+=0.25f;
 	}
 	void Replay(){
 		Application.LoadLevel("SceneMenu");

@@ -35,6 +35,6 @@ public class Food : MonoBehaviour {
 		GameObject addBody=Instantiate(body,b.transform.position-b.transform.forward*1.5f,b.transform.rotation) as GameObject;
 		temp.Add(addBody);
 		player.GetComponent<PlayerAddScore>().AddScore();
-		//player.GetComponent<PlayerMovement>().AddSpeed();
+		player.GetComponent<PlayerMovement>().AddSpeed();
 	}
 }
