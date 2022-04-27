@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657838, g: 0.49641234, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &4
 LightmapSettings:
@@ -158,8 +158,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -100}
-  m_SizeDelta: {x: 400, y: 150}
+  m_AnchoredPosition: {x: 0, y: -170}
+  m_SizeDelta: {x: 548, y: 175}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &178905426
 MonoBehaviour:
@@ -194,12 +194,19 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Role\uFF1A\nPress<color=#ffff00>WASD</color>to control the moving direction
-    of the snake, by eating<color=red>red color food </color>to add score\uFF0Cand
-    every time a food snake is eaten, the length of the snake will increase by one
-    unit.\r\nThe snake's body will get longer and longer, and the longer the body
-    is, the more difficult the game will be. When the snake hits the wall or its
-    own body, the game ends."
+  m_Text: 'How to play:
+
+    1. Press <color=#ffff00>WASD</color> to control the
+    moving direction of the snake.
+
+    2. Grow the length of the snake by collecting
+    the<color=red> food</color>.
+
+    3. The game ends when the snake hits the wall,
+    its own body, or the trees.
+
+    4. The <color=green>trees</color>, <color=white>clouds</color>,
+    and <color=gray>walls</color> might obstruct your view for tricky turns!'
 --- !u!222 &178905427
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -217,7 +224,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 470942, guid: 4e03916c301bca249a3ca2e20eb9502c, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 470942, guid: 4e03916c301bca249a3ca2e20eb9502c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -225,7 +232,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 470942, guid: 4e03916c301bca249a3ca2e20eb9502c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: .5
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 470942, guid: 4e03916c301bca249a3ca2e20eb9502c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -415,7 +422,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -200}
+  m_AnchoredPosition: {x: 0, y: -300}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &349168172
@@ -525,7 +532,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 470942, guid: 4e03916c301bca249a3ca2e20eb9502c, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 470942, guid: 4e03916c301bca249a3ca2e20eb9502c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -533,11 +540,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 470942, guid: 4e03916c301bca249a3ca2e20eb9502c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: .5
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 470942, guid: 4e03916c301bca249a3ca2e20eb9502c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -14.75
+      value: -12.75
       objectReference: {fileID: 0}
     - target: {fileID: 470942, guid: 4e03916c301bca249a3ca2e20eb9502c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -570,7 +577,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 470942, guid: 4e03916c301bca249a3ca2e20eb9502c, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 470942, guid: 4e03916c301bca249a3ca2e20eb9502c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -578,11 +585,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 470942, guid: 4e03916c301bca249a3ca2e20eb9502c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: .5
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 470942, guid: 4e03916c301bca249a3ca2e20eb9502c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -11.75
+      value: -10.75
       objectReference: {fileID: 0}
     - target: {fileID: 470942, guid: 4e03916c301bca249a3ca2e20eb9502c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -839,7 +846,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 449202, guid: 0991e7fb82ee7904b993791c008387ba, type: 3}
       propertyPath: m_LocalPosition.y
-      value: .5
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 449202, guid: 0991e7fb82ee7904b993791c008387ba, type: 3}
       propertyPath: m_LocalPosition.z
@@ -905,7 +912,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 470942, guid: 4e03916c301bca249a3ca2e20eb9502c, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 470942, guid: 4e03916c301bca249a3ca2e20eb9502c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -913,11 +920,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 470942, guid: 4e03916c301bca249a3ca2e20eb9502c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: .5
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 470942, guid: 4e03916c301bca249a3ca2e20eb9502c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -10.25
+      value: -9.755
       objectReference: {fileID: 0}
     - target: {fileID: 470942, guid: 4e03916c301bca249a3ca2e20eb9502c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1096,7 +1103,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 470942, guid: 4e03916c301bca249a3ca2e20eb9502c, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 470942, guid: 4e03916c301bca249a3ca2e20eb9502c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1104,11 +1111,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 470942, guid: 4e03916c301bca249a3ca2e20eb9502c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: .5
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 470942, guid: 4e03916c301bca249a3ca2e20eb9502c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -13.25
+      value: -11.75
       objectReference: {fileID: 0}
     - target: {fileID: 470942, guid: 4e03916c301bca249a3ca2e20eb9502c, type: 3}
       propertyPath: m_LocalRotation.w

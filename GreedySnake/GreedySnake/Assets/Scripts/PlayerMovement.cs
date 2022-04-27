@@ -15,7 +15,7 @@ public class PlayerMovement : MonoBehaviour {
 	void Awake(){
 		speed=7f;
 		if(isRandomMoving){
-			InvokeRepeating("RandomMoving",1f,1.5f);
+			InvokeRepeating("RandomMoving",1f,1f);
 		}
 
 	}
@@ -112,7 +112,7 @@ public class PlayerMovement : MonoBehaviour {
 	void OnTriggerEnter(Collider other){
 		if(other.gameObject==body||other.gameObject.GetComponent<Food>()) return;
 		isDead=true;
-		Invoke("Replay",1f);
+		Invoke("Replay",2f);
 	}
 	public void AddSpeed(){
 		speed+=0.25f;

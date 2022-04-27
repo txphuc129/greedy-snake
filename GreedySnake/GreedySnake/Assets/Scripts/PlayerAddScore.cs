@@ -9,10 +9,10 @@ public class PlayerAddScore : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		score=0;
-		textField.text="Score:"+score;
+		textField.text="Score: "+score;
 	}
 	public void AddScore(){
 		score++;
-		textField.text="Score:"+score;
+		textField.text="Score: "+score;
 	}
 }

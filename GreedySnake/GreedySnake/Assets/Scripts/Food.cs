@@ -13,7 +13,7 @@ public class Food : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		transform.Rotate(0, 50 * Time.deltaTime, 0);
+		transform.Rotate(0, 100 * Time.deltaTime, 0);
 	}
 	void OnTriggerEnter(Collider other){
 		if(isTrigger) return;
@@ -32,7 +32,7 @@ public class Food : MonoBehaviour {
 	void AddBody(){
 		ArrayList temp=player.GetComponent<PlayerAddBody>().bodys;
 		GameObject b=temp[temp.Count-1] as GameObject;
-		GameObject addBody=Instantiate(body,b.transform.position-b.transform.forward*1.5f,b.transform.rotation) as GameObject;
+		GameObject addBody=Instantiate(body,b.transform.position-b.transform.forward*1f,b.transform.rotation) as GameObject;
 		temp.Add(addBody);
 		player.GetComponent<PlayerAddScore>().AddScore();
 		player.GetComponent<PlayerMovement>().AddSpeed();
