@@ -13,7 +13,7 @@ public class PlayerMovement : MonoBehaviour {
 	Quaternion newRotation;
 
 	void Awake(){
-		speed=7f;
+		speed=12f;
 		if(isRandomMoving){
 			InvokeRepeating("RandomMoving",1f,1f);
 		}
